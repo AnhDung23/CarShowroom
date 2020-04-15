@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/header-footer.css">
+        <link rel="stylesheet" href="css/content-menu.css">
+        <link rel="stylesheet" href="css/bao-gia-lai-thu.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="bootstrap-3.1.1-dist\js\bootstrap.min.js"></script>
+    <style>
+        
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                    <img id="brand" src="img/brand_257x64_cars_en.png" height="60%" width="19%">   
+                    <div class="right_head"> 
+                        <div class="contact">                         
+                            <img src="img/Facebook.png" height="30px" width="30px">
+                            <img src="img/Gmail.png" height="30px" width="30px">
+                        </div>                      
+                        <p>Tell <b style="font-size: 18px">0886662666</b></p>
+                        <p>The best or nothing! Hơn cả mong đợi!</p>
+                    </div>            
+            </div>
+                <nav class="menu">     
+                        <a href="Project_Web.html"><b> HOME </b></a>
+                        <a href="GioiThieu.html"><b> GIỚI THIỆU </b></a>
+                    <div class="sub">
+                        <a  href=""><b> MERCEDES-BENZ </b></a>
+                            <div class="sub-menu" id="sub_1">
+                                <a href="Mercedes A200 2019.html"><b>Mercedes A200 2019</b></a>
+                                <a href="Mercedes C200 2019.html"><b>Mercedes C200 2019</b></a>
+                                <a href="Mercedes C250 2019.html"><b>Mercedes C250 2019</b></a>
+                                <a href="Mercedes C300 AMG 2018.html"><b>Mercedes C300 AMG 2018</b></a>
+                                <a href="Mercedes CLA 200 2018.html"><b>Mercedes CLA 200 2018</b></a>
+                                <a href="Mercedes CLA 250 2018.html"><b>Mercedes CLA 250 2018</b></a>
+                                <a href="Mercedes E200 2018.html"><b>Mercedes E200 2018</b></a>
+                                <a href="Mercedes E250 2019.html"><b>Mercedes E250 2019</b></a>
+                                <a href="Mercedes E300 AMG 2019.html"><b>Mercedes E300 AMG 2019</b></a>
+                                <a href="Mercedes S450 2018.html"><b>Mercedes S450 2018</b></a>
+                                <a href="Mercedes GLC 200 2018.html"><b>Mercedes GLC 200 2018</b></a>
+                                <a href="Mercedes GLE 400 Exclusive 2018.html"><b>Mercedes GLE 400 Exclusive 2018</b></a>   
+                            </div>
+                    </div>
+                    <div class="sub">
+                        <a href=""><b> MERCEDES-AMG </b></a>
+                            <div class="sub-menu" id="sub_2">
+                                <a href="Mercedes-AMG A45 2018.html"><b>Mercedes-AMG A45 2018</b></a>
+                                <a href="Mercedes-AMG CLA 45 4Matic 2018.html"><b>Mercedes-AMG CLA 45 4Matic 2018</b></a>
+                                <a href="Mercedes-AMG GLE 43 Coupe 4Matic 2018.html"><b>Mercedes-AMG GLE 43 Coupe 4Matic 2018</b></a>
+                                <a href="Mercedes-AMG GLS63 2018.html"><b>Mercedes-AMG GLS63 2018</b></a>
+                            </div>
+                    </div>
+                    <div class="sub">
+                        <a href=""><b> MERCEDES-MAYBACH </b></a>
+                            <div class="sub-menu" id="sub_3">
+                                <a href="Mercedes Maybach S450 2018.html"><b>Mercedes Maybach S450 2018</b></a>
+                                <a href="Mercedes Maybach S560 2018.html"><b>Mercedes Maybach S560 2018</b></a>
+                                <a href="Mercedes Maybach S650 2018.html"><b>Mercedes Maybach S650 2018</b></a>
+                            </div>
+                    </div>
+                        <a href="giaxe.html"><b> GIÁ XE MERCEDES </b></a>
+                        <a href="Uoctinhtragop.html"><b> ƯỚC TÍNH TRẢ GÓP </b></a>
+                        <a href="dutoanchiphi.html"><b> DỰ TOÁN CHI PHÍ </b></a>
+                        <a href="lien he.html"><b> LIÊN HỆ </b></a>                        
+                </nav>
+            <div class="slideshow">
+                    <img class="imgslideshow" src="img/home_gtfamily-1349x400.jpg">
+                    <img class="imgslideshow" src="img/4334148_Mercedes_S-Class_2018_Xe.tinhte.vn-1683-1349x400.jpg" >
+                    <img class="imgslideshow" src="img/2018-E-COUPE-CLASS-HERO-CH1-DR.jpg">
+            </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("imgslideshow");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 3000); 
+                }
+            </script>
+               
+                <nav class="icon">
+                            <a href="giaxe.html"><img src="img/icon-usd.png" align="left"><p>BẢNG GIÁ XE MERCEDES</p></a>
+                            <a href="Uoctinhtragop.html"><img  src="img/icon-calc.png" align="left"><p>ƯỚC TÍNH TRẢ GÓP</p></a>
+                            <a href="" id="demo" data-toggle="modal" data-target="#myModal"><img src="img/icon-drive.png" align="left"><p>ĐĂNG KÝ LÁI THỬ</p></a>  
+                        <div id="myModal" class="baogia">
+                            <div class="modal-content">
+                                <div class="header-baogia">
+                                    <form >
+                                        <div><h4>Yêu cầu báo giá</h4></div>
+                                        <div><button id="close" type="button" style="cursor: pointer;" data-dismiss="modal">
+                                            <span>x</span>
+                                            </button></div> 
+                                        </div>
+                                        <div class="NDbaogia">
+                                            <p>Chào anh chị, Để nhận được "báo giá đặc biệt" từ Thực Mercedes-Benz, các anh chị hãy liên hệ với 
+                                               Thực Mercedes-Benz qua số điện thoại <span style="color: red">0919 626 579</span> hoặc điền form báo giá dưới đây. Xin cảm ơn.</p>
+                                                <div class="row">
+                                                    <input type="text" placeholder="Họ tên" required="required">
+                                                    <input type="text" placeholder="Dòng xe" required="required">
+                                                </div>
+                                                <div class="row">
+                                                    <input type="tel" placeholder="Số điện thoại">
+                                                    <input type="email" placeholder="Email" required="required">
+                                                </div>
+                                                <div>
+                                                    <textarea name="" id="" cols="55" rows="10" placeholder="Ghi chú"></textarea> <br>
+                                                    <input type="button" value="Gửi yêu cầu" class="guiyeucau" id="sbm" onclick="alert('Cám ơn quý vị đã gửi thư. Tôi sẽ phản hồi sớm nhất khi nhận được email')">
+                                                </div> 
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>      
+                           
+                </nav>
+
+            <div class="content">
+                    <table>
+                            <tr>
+                                <th colspan="4">Các dòng xe Mercedes chính hãng tại việt nam</th>
+                            </tr>
+                            <tr>
+                                <td><a href="Mercedes C200 2019.html"><img src="img/mercedes-c200.jpg" alt=""><p>Mercedes C200</p></a></td>
+                                <td><a href="Mercedes C250 2019.html"><img src="img/mercedes-c250.jpg" alt=""><p>Mercedes C250</p></a></td>
+                                <td><a href="Mercedes C300 AMG 2018.html"><img src="img/mercedes-c300.jpg" alt=""><p>Mercedes C300</p></a></td>
+                                <td><a href="Mercedes E200 2018.html"><img src="img/e200.jpg" alt=""><p>Mercedes E200</p></a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="Mercedes E250 2019.html"><img src="img/e250.jpg" alt=""><p>Mercedes E250</p></a></td>
+                                <td><a href="Mercedes E300 AMG 2019.html"><img src="img/e300-3.jpg" alt=""><p>Mercedes E300 AMG</p></a></td>
+                                <td><a href="Mercedes GLC 200 2018.html"><img src="img/mercedes-glc-200.jpg" alt=""><p>Mercedes GLC 200</p></a></td>
+                                <td><a href="Mercedes-AMG GLS63 2018.html"><img src="img/2018-mercedes-amg-gls63-lovely-new-2018-mercedes-benz-gls-gls63-amg-suv-in-burlington-of-2018-mercedes-amg-gls63.jpg" alt=""><p>Mercedes-AMG GLS63 2018</p></a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="Mercedes-AMG A45 2018.html"><img src="img/speed-buster-mercedes-amg-a45.jpg" alt=""><p>Mercedes-AMG A45 2018</p></a></td>
+                                <td><a href="Mercedes Maybach S650 2018.html"><img src="img/mercedes-maybach-s650-4.jpg" alt=""><p>Mercedes Maybach S650 2018</p></a></td>
+                                <td><a href="Mercedes S450 2018.html"><img src="img/s450-luxury.jpg" alt=""><p>Mercedes S450 Luxury</p></a></td>
+                                <td><a href="Mercedes Maybach S450 2018.html"><img src="img/maybach-s450.jpg" alt=""><p>Mercedes-Maybach S450</p></a></td>
+                            </tr>
+                        </table>                
+            </div>  
+            
+            <div class="footer">
+                <div class="footer-left">
+                        <h3>Mercedes-Benz</h3>
+                        <img src="img/dmca_logo.png">
+                </div>
+                <div class="footer-center">
+                    <p>Điện thoại:<b style="font-size: 18px"></b> 0886662666</p>
+                    <p>Địa chỉ 1: 2008 Đại lộ Võ Văn Kiệt, P An Lạc, Q Bình Tân, TP.HCM</p>
+                    <p>Địa chỉ 2:  Số 333 Điện Biên Phủ, P.15, Q.Bình Thạnh, Tp.HCM</p>
+                    <p>Địa chỉ 3: Số 46 Láng Hạ, Đống Đa - Hà Nội.</p>
+                    <p>Địa chỉ 4: 256 Kim Giang, Quận Hoàng Mai, Hà Nội</p>
+                </div>
+                <div class="footer-right">
+                    <p>Liên kết: <div id="link">Mercedes Vietnam</div></p>
+                </div>
+                <div class="copyright"><p>Copyright © Mercedes-Benz Vietnam | Đại lý chính thức của Mercedes-Benz. All right Reserved.</p></div>
+            </div>
+        
+        </div>    
+        
+    </body>
+</html>

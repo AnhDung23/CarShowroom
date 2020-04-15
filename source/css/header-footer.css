@@ -1,0 +1,126 @@
+.container{background-color:  rgb(250, 250, 235);}
+.header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+#brand{
+    margin-top: 1%;
+    margin-left: 10%;
+}
+.right_head{
+    float: right;
+    margin-right: 15%;
+    margin-top: 13px;
+    text-align: right;
+}
+.right_head p{ color: white;}
+.contact{
+    float: left;;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+.menu{
+    height: 40px;
+    width: 90%;
+    background-color: rgb(236, 234, 234);
+    padding-left: 10%;
+}
+.menu a{     
+    
+    border-right: 1px solid rgb(250, 249, 249);    
+    color: black;
+    padding: 0px 8px;
+    line-height: 40px;
+    font-size: 80%;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.menu a:hover{
+    color: white;
+    background-color: black;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 0%;
+    clear: both;
+    background-color: black;
+    color: white;
+}
+.footer-left{
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    margin-left: 12%; 
+    margin-top: 2%;                            
+}
+.footer-left img{
+    width: 50%;
+    height: 50px;
+    margin-top: 30px;
+}
+.footer-left h3{
+    position: absolute;
+    margin-top: 0;
+}
+.footer-center{
+    width: 30%;
+    margin-left: 36%;
+    float: left;
+    height: 200px;
+    margin-top: 0.5%
+}
+.footer-right{
+    width: 20%;
+    height: 50%;
+    float: right;
+    margin-right: 8%;
+}
+.footer-right p{
+    position: absolute;
+    font-size: 15px;   
+}
+#link{
+    position: absolute;
+    color: rgb(19, 19, 250);
+    font-style: italic;
+    margin-left: 4%;
+    margin-top: 1%;              
+}
+.copyright{
+    position: absolute;
+    background-color:rgb(218, 214, 214);
+    width: 99%;
+    height: 6%;
+    margin-top: 13%;
+}
+.copyright p{
+    text-align: center;
+    color: black;
+}
+
+.sub-menu{
+    display: none;
+    width: 16%;
+    top: 19.7%;
+    position: absolute;
+   }
+.sub:hover .sub-menu {display: block;}
+.sub-menu a{
+float: none;
+color: black;
+display: block;
+background-color: rgb(243, 241, 241);  
+color: black;
+font-size: 80%;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sub_1{left: 21.1%;}
+#sub_2{left: 30.2%;}
+#sub_3{left: 39%;}

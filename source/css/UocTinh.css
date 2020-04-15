@@ -1,0 +1,69 @@
+.tinh-phi{
+    margin-left: 10%;
+    height: 500px;
+    margin-right: 10%;
+}
+#title-tinh{font-size: 35px;}
+.bang-tinh{
+    border: 1px solid;
+    margin-top: 2%
+}
+.form-info{
+    float: left;
+    margin-left: 10%;
+/*  */
+}
+.bang-chi-phi{
+    float: left;
+    margin-left: 20%;
+    width: 35%;
+}
+.footer-form{
+    float: left;
+    margin-top: 5%;
+    border-top: 1px solid
+    }
+label{
+    font-size: 19px;
+    float: left;
+    margin-top: 10px;
+}
+#submit-info{
+    margin-top: 15px;
+    padding: 4%;
+    -webkit-border-radius:1px;
+    -moz-border-radius:1px;
+    border-radius: 5px; 
+    border: 1px solid rgb(8, 156, 8);
+    background-color: rgb(8, 156, 8);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#input-dongxe, #input-khuvuc{
+    margin-top: -20px;
+    float: left;
+    margin-left: 40%; 
+}
+#title-bang-kq{
+    background-color: black;
+    color: white;
+    -webkit-border-radius:1px;
+    -moz-border-radius:1px;
+    border-radius: 5px; 
+    padding: 1%;
+    font-size: 20px;
+}
+.loai-phi, .phi{display: inline;}
+.phi{float: right;}
+#row-phi{
+    margin-top: 5px;
+    border-bottom: 1px solid; 
+    padding: 1%;
+}
+
+#input-dong-xe, #input-nam-vay, #input-lai-suat, #input-tien-tra-truoc{
+    margin-top: -20px;
+    float: left;
+    margin-left: 80%; 
+}

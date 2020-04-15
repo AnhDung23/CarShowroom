@@ -1,0 +1,66 @@
+.baogia {
+    display: none; 
+    position: fixed; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;             
+    background-color: rgba(138, 137, 137, 0.4); 
+}             
+.modal-content {
+    background-color: white;
+    margin: auto;
+    border: 1px solid rgb(155, 153, 153);
+    width: 30%;
+    height: 450px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius: 10px;
+}        
+.header-baogia{
+    border-bottom: 1px solid rgb(202, 202, 200);
+    height: 30px;               
+}
+.header-baogia button{
+    background-color: rgb(245, 245, 245);
+    float: right;
+    color: gray;
+    text-shadow: 0 2px 0 rgb(226, 226, 226);
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: -50px;
+    margin-right: 20px;
+    border: 0;
+}
+h4{
+    font-size: 18px;
+    margin-left: 6%;
+    margin-top: 15px;
+}
+.NDbaogia{
+    margin-left: 3.5%;
+    margin-right: 2%
+}
+input, textarea{
+    -webkit-border-radius:1px;
+    -moz-border-radius:1px;
+    border-radius: 5px; 
+    border: 1px solid;
+}
+input{
+    width: 48%;
+    height: 22px;
+}
+.guiyeucau{
+    width: 23%;
+    height: 25px;
+    background-color: green;
+    color: white;
+    margin-top: 7px;
+
+}
+.row {margin-top: 7px;}
+textarea {margin-top: 7px;}
+#close {background-color: white;}
+#close:hover {color: rgb(233, 7, 7);} 

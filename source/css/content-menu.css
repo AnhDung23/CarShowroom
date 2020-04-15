@@ -1,0 +1,52 @@
+.slideshow img{
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+}
+.icon{
+    height: 100px;
+    width: 95%;
+    background-color: rgba(179, 179, 180, 0.829);
+    padding-left: 5%;  
+}
+.icon a{
+    width: 24%;
+    height: 97px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block; 
+    margin-left: 8%;
+    margin-top: 7px;
+}
+.icon img{
+    width: 22%;
+    height: 72%;
+    padding: 2%;
+}
+.icon p{margin-top: 9%;}
+
+table{
+    width: 78%;
+    margin-top: 2%;
+    margin-left: 13%;   
+}
+th{
+    font-size: 30px;
+    text-align: center;
+}
+td img{
+    width: 85%;
+    height: 150px;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+td p{
+    text-align: center;
+    margin-top: 0;
+    font-size: 20px;
+}
+.content a{ 
+    text-decoration: none;
+    color: rgb(32, 32, 250);
+}
